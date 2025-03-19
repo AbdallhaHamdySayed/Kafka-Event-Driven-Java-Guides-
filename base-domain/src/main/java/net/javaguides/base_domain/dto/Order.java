@@ -48,4 +48,14 @@ public class Order {
     public void setPrice(double price) {
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+        return "Order{" +
+                "orderId='" + orderId + '\'' +
+                ", name='" + name + '\'' +
+                ", qty=" + qty +
+                ", price=" + price +
+                '}';
+    }
 }
